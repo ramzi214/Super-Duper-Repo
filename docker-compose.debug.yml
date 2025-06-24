@@ -1,0 +1,6 @@
+services:
+  superdupercomputer:
+    image: superdupercomputer
+    build:
+      context: .
+      dockerfile: ./Dockerfile
